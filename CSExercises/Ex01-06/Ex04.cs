@@ -10,7 +10,13 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            
+            Console.WriteLine("Please enter a Double Precision Number");
+            string x = Console.ReadLine();
+            double y = Convert.ToDouble(x);
+            double w = Math.Sqrt(y);
+            Console.Write("The Square Root of " + y);
+            Console.Write(" is " + w);
+            string exit = Console.ReadLine();            
         }
     }
 }

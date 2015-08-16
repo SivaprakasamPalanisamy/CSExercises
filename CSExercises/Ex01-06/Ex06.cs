@@ -10,7 +10,15 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
+            Console.WriteLine("Please enter an integer Number");
+            string x = Console.ReadLine();
+            int y = Convert.ToInt16(x);
+            double w = Math.Sqrt(y);
+            Console.Write("The Square Root of " + y);
+            Console.Write(" is " + w);
+            string exit = Console.ReadLine();
             
+             
         }
     }
 }

@@ -10,7 +10,10 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            
+            Console.WriteLine("Please enter your name.");
+            string name = Console.ReadLine();
+            Console.WriteLine("Good Morning " + name);
+            string exit = Console.ReadLine(); // This command to pause console prompt screen
         }
     }
 }

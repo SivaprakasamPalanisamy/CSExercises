@@ -36,8 +36,12 @@ namespace CSExercises
             } while (c <= 0);
             double s = (a+b+c)/2;
             double area = Math.Sqrt(s*(s-a)*(s-b)*(s-c));
-            Console.Write("The total area of the triangle is ");
-            Console.Write(area);
+            if (area > 0)
+            {
+                Console.Write("The total area of the triangle is ");
+                Console.Write(area);
+            }
+            else { Console.WriteLine("Wrong triangle values input?.Pls enter a valid triangle values"); }
             string exit = Console.ReadLine();                 
         }
     }

@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CSExercises.Ex33</StartupObject>
+    <StartupObject>CSExercises.BC3</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -44,6 +44,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BC1.cs" />
+    <Compile Include="BC2.cs" />
+    <Compile Include="BC3.cs" />
     <Compile Include="Ex01-06\Ex06.cs" />
     <Compile Include="Ex01-06\Ex05.cs" />
     <Compile Include="Ex01-06\Ex04.cs" />

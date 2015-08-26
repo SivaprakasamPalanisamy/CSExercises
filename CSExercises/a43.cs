@@ -32,8 +32,6 @@ namespace CSExercises
             
             while ( input!=0)
             {
-
-
                 int number = input % 16;
 
                 if (number == 15) { reverseHexAnswer += "F"; } 
@@ -44,10 +42,7 @@ namespace CSExercises
                 if (number == 10) { reverseHexAnswer += "A"; }
                 if (number < 10) { reverseHexAnswer += number; }
 
-                input = input/16;
-
-
-            
+                input = input/16;         
             }
 
             for (int j = reverseHexAnswer.Length - 1; j >= 0; j-- )

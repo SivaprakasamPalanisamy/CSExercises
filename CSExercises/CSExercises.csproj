@@ -32,9 +32,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CSExercises.Ex42a</StartupObject>
+    <StartupObject>DKExDiceOtherSums.DiceApp</StartupObject>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="ISS.RV.LIB">
+      <HintPath>..\ISS.RV.LIB.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -48,6 +51,10 @@
     <Compile Include="BC1.cs" />
     <Compile Include="BC2.cs" />
     <Compile Include="BC3.cs" />
+    <Compile Include="Dice.cs" />
+    <Compile Include="Dice8.cs" />
+    <Compile Include="DiceOtherSums.cs" />
+    <Compile Include="DKex1.cs" />
     <Compile Include="Ex01-06\Ex06.cs" />
     <Compile Include="Ex01-06\Ex05.cs" />
     <Compile Include="Ex01-06\Ex04.cs" />
